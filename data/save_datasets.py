@@ -29,9 +29,9 @@ datasets={
 
 sets=datasets.keys()
 
-for set in sets:
-    df = pd.read_json(datasets[set], lines=True)
-    name=f"{set}.json"
+for dataset in sets:
+    df = pd.read_json(datasets[dataset], lines=True)
+    name=f"{dataset}.json"
     df.to_json(name, orient="split")
 
 
