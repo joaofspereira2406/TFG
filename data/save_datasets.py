@@ -33,5 +33,3 @@ for dataset in sets:
     df = pd.read_json(datasets[dataset], lines=True)
     name=f"{dataset}.json"
     df.to_json(name, orient="split")
-
-
