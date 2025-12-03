@@ -7,11 +7,13 @@ from datetime import datetime
 import json
 
 model_name = "Qwen/Qwen2.5-3B-Instruct"
+revision = "aa8e72537993ba99e69dfaafa59ed015b17504d1"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
+    revision=revision,
     dtype=torch.float16,
 )
 model.to("cuda")
@@ -118,7 +120,6 @@ def test(data):
     print(f"Predictions saved to {output_path}")
 
     return predictions_list
-
 
 test('BBQ-AGE')
 
