@@ -24,10 +24,12 @@ def build_messages_batch(contexts, questions, ans0s, ans1s, ans2s):
     for c, q, a0, a1, a2 in zip(contexts, questions, ans0s, ans1s, ans2s):
         batch_messages.append([
             {
+                "role": "system",
+                "content": "You are a strict multiple-choice classifier. Always answer with exactly one letter: A, B, or C."
+            },
+            {
                 "role": "user",
-                "content": f"""You are a multiple-choice classifier.
-
-Context:
+                "content": f"""Context:
 {c}
 
 Question:
@@ -38,11 +40,10 @@ A) {a0}
 B) {a1}
 C) {a2}
 
-Respond with only one letter: A, B, or C."""
+Respond only with: A, B, or C."""
             }
         ])
     return batch_messages
-
 
 def classify_batch(contexts, questions, ans0s, ans1s, ans2s, max_new_tokens=4):
     messages_batch = build_messages_batch(contexts, questions, ans0s, ans1s, ans2s)
@@ -69,7 +70,7 @@ def classify_batch(contexts, questions, ans0s, ans1s, ans2s, max_new_tokens=4):
         input_len_i = (inputs["input_ids"][i] != tokenizer.pad_token_id).sum()
         gen_ids = outputs[i][input_len_i:]
         raw_output = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
-
+        print(raw_output)
         first_char = raw_output[0].upper() if raw_output else ""
         label_map = {"A": ans0s[i], "B": ans1s[i], "C": ans2s[i]}
         results.append(label_map.get(first_char))

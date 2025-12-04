@@ -18,6 +18,7 @@ sets= [
 
 for s in sets:
     df = pd.read_json(f"{s}.json", orient='split')
+    print(df.columns)
     for i in range(5):
         print(df['context'][i])
 
