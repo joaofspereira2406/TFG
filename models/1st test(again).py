@@ -104,7 +104,7 @@ for model in model_list:
 metadata = pd.DataFrame(metadata_rows)
 metadata.set_index('model_name', inplace=True)
 
-metadata.to_json("output.json", orient="records")
+metadata.to_json("output_qwen.json", orient="records")
 
 
 
