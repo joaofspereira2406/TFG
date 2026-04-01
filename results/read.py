@@ -3,7 +3,7 @@ import argparse
 import pandas as pd
 
 
-PARQUET_PATH = "facebook_bart_large_mnli/BBQ-AGE_batched_predictions_20260217_032619.parquet"
+PARQUET_PATH = "cross_encoder_nli_MiniLM2_L6_H768/BBQ-RACE_SES-average.parquet"
 
 
 

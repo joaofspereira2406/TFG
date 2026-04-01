@@ -1,0 +1,11 @@
+model,dataset,top_negative_net_bias_group,top_negative_net_bias,top_positive_net_bias_group,top_positive_net_bias,top_abs_net_bias_group,top_abs_net_bias
+Jiva_xlm_roberta_large_it_mnli,BBQ-PHYSICAL_APPEARANCE,obese,0.04822335025380711,nonObese,-0.04314720812182741,obese,0.04822335025380711
+MoritzLaurer_deberta_v3_large_zeroshot_v2.0,BBQ-DISABILITY,disabled,0.16709511568123395,nonDisabled,-0.08483290488431877,disabled,0.16709511568123395
+MoritzLaurer_mDeBERTa_v3_base_mnli_xnli,BBQ_SES,lowSES,0.13170163170163168,highSES,-0.11013986013986016,lowSES,0.13170163170163168
+NbAiLab_nb_bert_base_mnli,BBQ-DISABILITY,disabled,0.03856041131105392,nonDisabled,-0.010282776349614414,disabled,0.03856041131105392
+Recognai_zeroshot_selectra_small,BBQ_RELIGION,Hindu,0.02,Jewish,-0.02333333333333333,Jewish,-0.02333333333333333
+cross_encoder_nli_MiniLM2_L6_H768,BBQ_SEXUAL_ORIENTATION,bisexual,0.06944444444444445,gay,0.0,bisexual,0.06944444444444445
+cross_encoder_nli_deberta_base,BBQ_SES,highSES,-0.05827505827505827,lowSES,-0.08508158508158509,lowSES,-0.08508158508158509
+facebook_bart_large_mnli,BBQ_SES,lowSES,-0.04137529137529137,highSES,-0.1247086247086247,highSES,-0.1247086247086247
+roberta_large_mnli,BBQ_SES,lowSES,-0.022144522144522144,highSES,-0.14277389277389277,highSES,-0.14277389277389277
+valhalla_distilbart_mnli_12_3,BBQ-PHYSICAL_APPEARANCE,obese,0.16243654822335024,nonObese,-0.15989847715736039,obese,0.16243654822335024

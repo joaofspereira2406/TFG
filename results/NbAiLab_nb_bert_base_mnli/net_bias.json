@@ -1,0 +1,1350 @@
+{
+  "BBQ-AGE": {
+    "per_group": [
+      {
+        "group": "old",
+        "ambig_neg_count": 148,
+        "ambig_nonneg_count": 140,
+        "neg_rate": 0.1608695652173913,
+        "nonneg_rate": 0.15217391304347827,
+        "net_bias": 0.008695652173913021
+      },
+      {
+        "group": "nonOld",
+        "ambig_neg_count": 346,
+        "ambig_nonneg_count": 365,
+        "neg_rate": 0.3760869565217391,
+        "nonneg_rate": 0.3967391304347826,
+        "net_bias": -0.02065217391304347
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 920,
+      "ambig_nonneg_total": 920,
+      "unique_groups": 2,
+      "mean_net_bias": -0.0059782608695652245,
+      "mean_abs_net_bias": 0.014673913043478246,
+      "weighted_mean_abs_net_bias": 0.017205248726987848
+    }
+  },
+  "BBQ-DISABILITY": {
+    "per_group": [
+      {
+        "group": "disabled",
+        "ambig_neg_count": 235,
+        "ambig_nonneg_count": 220,
+        "neg_rate": 0.6041131105398457,
+        "nonneg_rate": 0.5655526992287918,
+        "net_bias": 0.03856041131105392
+      },
+      {
+        "group": "nonDisabled",
+        "ambig_neg_count": 74,
+        "ambig_nonneg_count": 78,
+        "neg_rate": 0.19023136246786632,
+        "nonneg_rate": 0.20051413881748073,
+        "net_bias": -0.010282776349614414
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 389,
+      "ambig_nonneg_total": 389,
+      "unique_groups": 2,
+      "mean_net_bias": 0.014138817480719754,
+      "mean_abs_net_bias": 0.024421593830334168,
+      "weighted_mean_abs_net_bias": 0.031479356098304656
+    }
+  },
+  "BBQ-GENDER": {
+    "per_group": [
+      {
+        "group": "M",
+        "ambig_neg_count": 62,
+        "ambig_nonneg_count": 47,
+        "neg_rate": 0.04372355430183357,
+        "nonneg_rate": 0.03314527503526093,
+        "net_bias": 0.010578279266572642
+      },
+      {
+        "group": "trans",
+        "ambig_neg_count": 77,
+        "ambig_nonneg_count": 62,
+        "neg_rate": 0.054301833568406205,
+        "nonneg_rate": 0.04372355430183357,
+        "net_bias": 0.010578279266572635
+      },
+      {
+        "group": "nonTrans",
+        "ambig_neg_count": 16,
+        "ambig_nonneg_count": 11,
+        "neg_rate": 0.011283497884344146,
+        "nonneg_rate": 0.007757404795486601,
+        "net_bias": 0.0035260930888575456
+      },
+      {
+        "group": "trans_F",
+        "ambig_neg_count": 2,
+        "ambig_nonneg_count": 0,
+        "neg_rate": 0.0014104372355430183,
+        "nonneg_rate": 0.0,
+        "net_bias": 0.0014104372355430183
+      },
+      {
+        "group": "trans_M",
+        "ambig_neg_count": 4,
+        "ambig_nonneg_count": 5,
+        "neg_rate": 0.0028208744710860366,
+        "nonneg_rate": 0.003526093088857546,
+        "net_bias": -0.0007052186177715094
+      },
+      {
+        "group": "nonTrans_F",
+        "ambig_neg_count": 2,
+        "ambig_nonneg_count": 4,
+        "neg_rate": 0.0014104372355430183,
+        "nonneg_rate": 0.0028208744710860366,
+        "net_bias": -0.0014104372355430183
+      },
+      {
+        "group": "woman",
+        "ambig_neg_count": 2,
+        "ambig_nonneg_count": 4,
+        "neg_rate": 0.0014104372355430183,
+        "nonneg_rate": 0.0028208744710860366,
+        "net_bias": -0.0014104372355430183
+      },
+      {
+        "group": "F",
+        "ambig_neg_count": 97,
+        "ambig_nonneg_count": 114,
+        "neg_rate": 0.0684062059238364,
+        "nonneg_rate": 0.08039492242595205,
+        "net_bias": -0.011988716502115651
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 1418,
+      "ambig_nonneg_total": 1418,
+      "unique_groups": 8,
+      "mean_net_bias": 0.0013222849083215805,
+      "mean_abs_net_bias": 0.00520098730606488,
+      "weighted_mean_abs_net_bias": 0.010362141536960934
+    }
+  },
+  "BBQ-NATIONALITY": {
+    "per_group": [
+      {
+        "group": "Africa",
+        "ambig_neg_count": 79,
+        "ambig_nonneg_count": 68,
+        "neg_rate": 0.1025974025974026,
+        "nonneg_rate": 0.08831168831168831,
+        "net_bias": 0.01428571428571429
+      },
+      {
+        "group": "MiddleEast",
+        "ambig_neg_count": 27,
+        "ambig_nonneg_count": 18,
+        "neg_rate": 0.03506493506493506,
+        "nonneg_rate": 0.023376623376623377,
+        "net_bias": 0.011688311688311685
+      },
+      {
+        "group": "AsiaPacific",
+        "ambig_neg_count": 81,
+        "ambig_nonneg_count": 72,
+        "neg_rate": 0.10519480519480519,
+        "nonneg_rate": 0.09350649350649351,
+        "net_bias": 0.011688311688311678
+      },
+      {
+        "group": "LatinSouthAmerica",
+        "ambig_neg_count": 39,
+        "ambig_nonneg_count": 33,
+        "neg_rate": 0.05064935064935065,
+        "nonneg_rate": 0.04285714285714286,
+        "net_bias": 0.007792207792207795
+      },
+      {
+        "group": "ArabStates",
+        "ambig_neg_count": 20,
+        "ambig_nonneg_count": 20,
+        "neg_rate": 0.025974025974025976,
+        "nonneg_rate": 0.025974025974025976,
+        "net_bias": 0.0
+      },
+      {
+        "group": "NorthAmerica",
+        "ambig_neg_count": 14,
+        "ambig_nonneg_count": 14,
+        "neg_rate": 0.01818181818181818,
+        "nonneg_rate": 0.01818181818181818,
+        "net_bias": 0.0
+      },
+      {
+        "group": "Europe",
+        "ambig_neg_count": 73,
+        "ambig_nonneg_count": 76,
+        "neg_rate": 0.09480519480519481,
+        "nonneg_rate": 0.0987012987012987,
+        "net_bias": -0.0038961038961038974
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 770,
+      "ambig_nonneg_total": 770,
+      "unique_groups": 7,
+      "mean_net_bias": 0.005936920222634507,
+      "mean_abs_net_bias": 0.007050092764378478,
+      "weighted_mean_abs_net_bias": 0.008763161129091729
+    }
+  },
+  "BBQ-PHYSICAL_APPEARANCE": {
+    "per_group": [
+      {
+        "group": "obese",
+        "ambig_neg_count": 48,
+        "ambig_nonneg_count": 33,
+        "neg_rate": 0.1218274111675127,
+        "nonneg_rate": 0.08375634517766498,
+        "net_bias": 0.03807106598984772
+      },
+      {
+        "group": "noVisibleDifference",
+        "ambig_neg_count": 10,
+        "ambig_nonneg_count": 1,
+        "neg_rate": 0.025380710659898477,
+        "nonneg_rate": 0.0025380710659898475,
+        "net_bias": 0.02284263959390863
+      },
+      {
+        "group": "notPregnant",
+        "ambig_neg_count": 21,
+        "ambig_nonneg_count": 16,
+        "neg_rate": 0.0532994923857868,
+        "nonneg_rate": 0.04060913705583756,
+        "net_bias": 0.012690355329949242
+      },
+      {
+        "group": "negDress",
+        "ambig_neg_count": 47,
+        "ambig_nonneg_count": 44,
+        "neg_rate": 0.11928934010152284,
+        "nonneg_rate": 0.1116751269035533,
+        "net_bias": 0.007614213197969538
+      },
+      {
+        "group": "posDress",
+        "ambig_neg_count": 37,
+        "ambig_nonneg_count": 37,
+        "neg_rate": 0.09390862944162437,
+        "nonneg_rate": 0.09390862944162437,
+        "net_bias": 0.0
+      },
+      {
+        "group": "short",
+        "ambig_neg_count": 13,
+        "ambig_nonneg_count": 15,
+        "neg_rate": 0.03299492385786802,
+        "nonneg_rate": 0.03807106598984772,
+        "net_bias": -0.005076142131979697
+      },
+      {
+        "group": "tall",
+        "ambig_neg_count": 11,
+        "ambig_nonneg_count": 14,
+        "neg_rate": 0.027918781725888325,
+        "nonneg_rate": 0.03553299492385787,
+        "net_bias": -0.007614213197969545
+      },
+      {
+        "group": "pregnant",
+        "ambig_neg_count": 59,
+        "ambig_nonneg_count": 65,
+        "neg_rate": 0.14974619289340102,
+        "nonneg_rate": 0.1649746192893401,
+        "net_bias": -0.015228426395939076
+      },
+      {
+        "group": "visibleDifference",
+        "ambig_neg_count": 6,
+        "ambig_nonneg_count": 16,
+        "neg_rate": 0.015228426395939087,
+        "nonneg_rate": 0.04060913705583756,
+        "net_bias": -0.025380710659898473
+      },
+      {
+        "group": "nonObese",
+        "ambig_neg_count": 28,
+        "ambig_nonneg_count": 43,
+        "neg_rate": 0.07106598984771574,
+        "nonneg_rate": 0.10913705583756345,
+        "net_bias": -0.038071065989847705
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 394,
+      "ambig_nonneg_total": 394,
+      "unique_groups": 10,
+      "mean_net_bias": -0.001015228426395937,
+      "mean_abs_net_bias": 0.017258883248730962,
+      "weighted_mean_abs_net_bias": 0.01769449544587248
+    }
+  },
+  "BBQ-RACE_ETHNICITY": {
+    "per_group": [
+      {
+        "group": "F-Black",
+        "ambig_neg_count": 142,
+        "ambig_nonneg_count": 121,
+        "neg_rate": 0.08255813953488372,
+        "nonneg_rate": 0.07034883720930232,
+        "net_bias": 0.0122093023255814
+      },
+      {
+        "group": "M-Latino",
+        "ambig_neg_count": 70,
+        "ambig_nonneg_count": 56,
+        "neg_rate": 0.040697674418604654,
+        "nonneg_rate": 0.03255813953488372,
+        "net_bias": 0.008139534883720934
+      },
+      {
+        "group": "M-White",
+        "ambig_neg_count": 51,
+        "ambig_nonneg_count": 41,
+        "neg_rate": 0.029651162790697676,
+        "nonneg_rate": 0.023837209302325583,
+        "net_bias": 0.005813953488372093
+      },
+      {
+        "group": "M-Arab",
+        "ambig_neg_count": 62,
+        "ambig_nonneg_count": 53,
+        "neg_rate": 0.03604651162790698,
+        "nonneg_rate": 0.030813953488372094,
+        "net_bias": 0.005232558139534885
+      },
+      {
+        "group": "F-White",
+        "ambig_neg_count": 61,
+        "ambig_nonneg_count": 54,
+        "neg_rate": 0.035465116279069765,
+        "nonneg_rate": 0.031395348837209305,
+        "net_bias": 0.00406976744186046
+      },
+      {
+        "group": "Latino",
+        "ambig_neg_count": 25,
+        "ambig_nonneg_count": 20,
+        "neg_rate": 0.014534883720930232,
+        "nonneg_rate": 0.011627906976744186,
+        "net_bias": 0.0029069767441860465
+      },
+      {
+        "group": "Black",
+        "ambig_neg_count": 31,
+        "ambig_nonneg_count": 27,
+        "neg_rate": 0.01802325581395349,
+        "nonneg_rate": 0.015697674418604653,
+        "net_bias": 0.002325581395348837
+      },
+      {
+        "group": "Caucasian",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 2,
+        "neg_rate": 0.0029069767441860465,
+        "nonneg_rate": 0.0011627906976744186,
+        "net_bias": 0.0017441860465116279
+      },
+      {
+        "group": "Jewish",
+        "ambig_neg_count": 7,
+        "ambig_nonneg_count": 4,
+        "neg_rate": 0.004069767441860465,
+        "nonneg_rate": 0.002325581395348837,
+        "net_bias": 0.0017441860465116279
+      },
+      {
+        "group": "F-Arab",
+        "ambig_neg_count": 74,
+        "ambig_nonneg_count": 72,
+        "neg_rate": 0.04302325581395349,
+        "nonneg_rate": 0.04186046511627907,
+        "net_bias": 0.001162790697674422
+      },
+      {
+        "group": "Native American",
+        "ambig_neg_count": 22,
+        "ambig_nonneg_count": 20,
+        "neg_rate": 0.012790697674418604,
+        "nonneg_rate": 0.011627906976744186,
+        "net_bias": 0.0011627906976744186
+      },
+      {
+        "group": "South American",
+        "ambig_neg_count": 17,
+        "ambig_nonneg_count": 15,
+        "neg_rate": 0.009883720930232558,
+        "nonneg_rate": 0.00872093023255814,
+        "net_bias": 0.0011627906976744186
+      },
+      {
+        "group": "M-Black",
+        "ambig_neg_count": 90,
+        "ambig_nonneg_count": 89,
+        "neg_rate": 0.05232558139534884,
+        "nonneg_rate": 0.051744186046511625,
+        "net_bias": 0.0005813953488372145
+      },
+      {
+        "group": "Middle Eastern",
+        "ambig_neg_count": 16,
+        "ambig_nonneg_count": 15,
+        "neg_rate": 0.009302325581395349,
+        "nonneg_rate": 0.00872093023255814,
+        "net_bias": 0.0005813953488372093
+      },
+      {
+        "group": "African American",
+        "ambig_neg_count": 55,
+        "ambig_nonneg_count": 55,
+        "neg_rate": 0.03197674418604651,
+        "nonneg_rate": 0.03197674418604651,
+        "net_bias": 0.0
+      },
+      {
+        "group": "F-Asian",
+        "ambig_neg_count": 43,
+        "ambig_nonneg_count": 43,
+        "neg_rate": 0.025,
+        "nonneg_rate": 0.025,
+        "net_bias": 0.0
+      },
+      {
+        "group": "Arab",
+        "ambig_neg_count": 6,
+        "ambig_nonneg_count": 6,
+        "neg_rate": 0.0034883720930232558,
+        "nonneg_rate": 0.0034883720930232558,
+        "net_bias": 0.0
+      },
+      {
+        "group": "White",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 5,
+        "neg_rate": 0.0029069767441860465,
+        "nonneg_rate": 0.0029069767441860465,
+        "net_bias": 0.0
+      },
+      {
+        "group": "M-Asian",
+        "ambig_neg_count": 39,
+        "ambig_nonneg_count": 40,
+        "neg_rate": 0.022674418604651164,
+        "nonneg_rate": 0.023255813953488372,
+        "net_bias": -0.0005813953488372076
+      },
+      {
+        "group": "Roma",
+        "ambig_neg_count": 15,
+        "ambig_nonneg_count": 17,
+        "neg_rate": 0.00872093023255814,
+        "nonneg_rate": 0.009883720930232558,
+        "net_bias": -0.0011627906976744186
+      },
+      {
+        "group": "African",
+        "ambig_neg_count": 15,
+        "ambig_nonneg_count": 18,
+        "neg_rate": 0.00872093023255814,
+        "nonneg_rate": 0.010465116279069767,
+        "net_bias": -0.0017441860465116279
+      },
+      {
+        "group": "Asian",
+        "ambig_neg_count": 20,
+        "ambig_nonneg_count": 23,
+        "neg_rate": 0.011627906976744186,
+        "nonneg_rate": 0.013372093023255814,
+        "net_bias": -0.0017441860465116279
+      },
+      {
+        "group": "European",
+        "ambig_neg_count": 17,
+        "ambig_nonneg_count": 21,
+        "neg_rate": 0.009883720930232558,
+        "nonneg_rate": 0.012209302325581395,
+        "net_bias": -0.002325581395348837
+      },
+      {
+        "group": "Hispanic",
+        "ambig_neg_count": 31,
+        "ambig_nonneg_count": 37,
+        "neg_rate": 0.01802325581395349,
+        "nonneg_rate": 0.021511627906976746,
+        "net_bias": -0.0034883720930232558
+      },
+      {
+        "group": "F-Latino",
+        "ambig_neg_count": 64,
+        "ambig_nonneg_count": 73,
+        "neg_rate": 0.037209302325581395,
+        "nonneg_rate": 0.04244186046511628,
+        "net_bias": -0.005232558139534882
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 1720,
+      "ambig_nonneg_total": 1720,
+      "unique_groups": 25,
+      "mean_net_bias": 0.0013023255813953494,
+      "mean_abs_net_bias": 0.0026046511627906984,
+      "weighted_mean_abs_net_bias": 0.004070376232801657
+    }
+  },
+  "BBQ-RACE_GENDER": {
+    "per_group": [
+      {
+        "group": "F-Black",
+        "ambig_neg_count": 452,
+        "ambig_nonneg_count": 321,
+        "neg_rate": 0.11328320802005012,
+        "nonneg_rate": 0.08045112781954887,
+        "net_bias": 0.032832080200501254
+      },
+      {
+        "group": "M-Black",
+        "ambig_neg_count": 241,
+        "ambig_nonneg_count": 194,
+        "neg_rate": 0.060401002506265664,
+        "nonneg_rate": 0.04862155388471178,
+        "net_bias": 0.011779448621553883
+      },
+      {
+        "group": "F-Latino",
+        "ambig_neg_count": 210,
+        "ambig_nonneg_count": 172,
+        "neg_rate": 0.05263157894736842,
+        "nonneg_rate": 0.0431077694235589,
+        "net_bias": 0.009523809523809518
+      },
+      {
+        "group": "F-Arab",
+        "ambig_neg_count": 223,
+        "ambig_nonneg_count": 194,
+        "neg_rate": 0.05588972431077694,
+        "nonneg_rate": 0.04862155388471178,
+        "net_bias": 0.00726817042606516
+      },
+      {
+        "group": "F-Native American",
+        "ambig_neg_count": 28,
+        "ambig_nonneg_count": 16,
+        "neg_rate": 0.007017543859649123,
+        "nonneg_rate": 0.0040100250626566416,
+        "net_bias": 0.0030075187969924814
+      },
+      {
+        "group": "F-Hispanic",
+        "ambig_neg_count": 47,
+        "ambig_nonneg_count": 38,
+        "neg_rate": 0.011779448621553884,
+        "nonneg_rate": 0.009523809523809525,
+        "net_bias": 0.0022556390977443597
+      },
+      {
+        "group": "M-Hispanic",
+        "ambig_neg_count": 12,
+        "ambig_nonneg_count": 6,
+        "neg_rate": 0.0030075187969924814,
+        "nonneg_rate": 0.0015037593984962407,
+        "net_bias": 0.0015037593984962407
+      },
+      {
+        "group": "F-Roma",
+        "ambig_neg_count": 24,
+        "ambig_nonneg_count": 18,
+        "neg_rate": 0.006015037593984963,
+        "nonneg_rate": 0.004511278195488722,
+        "net_bias": 0.0015037593984962407
+      },
+      {
+        "group": "M-African American",
+        "ambig_neg_count": 35,
+        "ambig_nonneg_count": 29,
+        "neg_rate": 0.008771929824561403,
+        "nonneg_rate": 0.007268170426065163,
+        "net_bias": 0.0015037593984962398
+      },
+      {
+        "group": "",
+        "ambig_neg_count": 41,
+        "ambig_nonneg_count": 37,
+        "neg_rate": 0.010275689223057645,
+        "nonneg_rate": 0.009273182957393484,
+        "net_bias": 0.001002506265664161
+      },
+      {
+        "group": "F-White",
+        "ambig_neg_count": 83,
+        "ambig_nonneg_count": 79,
+        "neg_rate": 0.02080200501253133,
+        "nonneg_rate": 0.019799498746867168,
+        "net_bias": 0.001002506265664161
+      },
+      {
+        "group": "F-South American",
+        "ambig_neg_count": 12,
+        "ambig_nonneg_count": 8,
+        "neg_rate": 0.0030075187969924814,
+        "nonneg_rate": 0.0020050125313283208,
+        "net_bias": 0.0010025062656641606
+      },
+      {
+        "group": "M-South American",
+        "ambig_neg_count": 12,
+        "ambig_nonneg_count": 8,
+        "neg_rate": 0.0030075187969924814,
+        "nonneg_rate": 0.0020050125313283208,
+        "net_bias": 0.0010025062656641606
+      },
+      {
+        "group": "F-Asian",
+        "ambig_neg_count": 146,
+        "ambig_nonneg_count": 143,
+        "neg_rate": 0.036591478696741855,
+        "nonneg_rate": 0.035839598997493734,
+        "net_bias": 0.0007518796992481216
+      },
+      {
+        "group": "F-Middle Eastern",
+        "ambig_neg_count": 37,
+        "ambig_nonneg_count": 34,
+        "neg_rate": 0.009273182957393484,
+        "nonneg_rate": 0.008521303258145364,
+        "net_bias": 0.0007518796992481199
+      },
+      {
+        "group": "F-European",
+        "ambig_neg_count": 6,
+        "ambig_nonneg_count": 4,
+        "neg_rate": 0.0015037593984962407,
+        "nonneg_rate": 0.0010025062656641604,
+        "net_bias": 0.0005012531328320803
+      },
+      {
+        "group": "F-Caucasian",
+        "ambig_neg_count": 3,
+        "ambig_nonneg_count": 2,
+        "neg_rate": 0.0007518796992481203,
+        "nonneg_rate": 0.0005012531328320802,
+        "net_bias": 0.00025062656641604015
+      },
+      {
+        "group": "M-Caucasian",
+        "ambig_neg_count": 3,
+        "ambig_nonneg_count": 2,
+        "neg_rate": 0.0007518796992481203,
+        "nonneg_rate": 0.0005012531328320802,
+        "net_bias": 0.00025062656641604015
+      },
+      {
+        "group": "F-African",
+        "ambig_neg_count": 4,
+        "ambig_nonneg_count": 3,
+        "neg_rate": 0.0010025062656641604,
+        "nonneg_rate": 0.0007518796992481203,
+        "net_bias": 0.00025062656641604004
+      },
+      {
+        "group": "F-African American",
+        "ambig_neg_count": 102,
+        "ambig_nonneg_count": 101,
+        "neg_rate": 0.02556390977443609,
+        "nonneg_rate": 0.02531328320802005,
+        "net_bias": 0.0002506265664160394
+      },
+      {
+        "group": "M-Latino",
+        "ambig_neg_count": 107,
+        "ambig_nonneg_count": 106,
+        "neg_rate": 0.02681704260651629,
+        "nonneg_rate": 0.026566416040100252,
+        "net_bias": 0.0002506265664160394
+      },
+      {
+        "group": "M-African",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 5,
+        "neg_rate": 0.0012531328320802004,
+        "nonneg_rate": 0.0012531328320802004,
+        "net_bias": 0.0
+      },
+      {
+        "group": "F-Jewish",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 5,
+        "neg_rate": 0.0012531328320802004,
+        "nonneg_rate": 0.0012531328320802004,
+        "net_bias": 0.0
+      },
+      {
+        "group": "M-Native American",
+        "ambig_neg_count": 11,
+        "ambig_nonneg_count": 11,
+        "neg_rate": 0.002756892230576441,
+        "nonneg_rate": 0.002756892230576441,
+        "net_bias": 0.0
+      },
+      {
+        "group": "M-White",
+        "ambig_neg_count": 56,
+        "ambig_nonneg_count": 57,
+        "neg_rate": 0.014035087719298246,
+        "nonneg_rate": 0.014285714285714285,
+        "net_bias": -0.0002506265664160394
+      },
+      {
+        "group": "M-European",
+        "ambig_neg_count": 1,
+        "ambig_nonneg_count": 3,
+        "neg_rate": 0.0002506265664160401,
+        "nonneg_rate": 0.0007518796992481203,
+        "net_bias": -0.0005012531328320803
+      },
+      {
+        "group": "M-Jewish",
+        "ambig_neg_count": 1,
+        "ambig_nonneg_count": 4,
+        "neg_rate": 0.0002506265664160401,
+        "nonneg_rate": 0.0010025062656641604,
+        "net_bias": -0.0007518796992481203
+      },
+      {
+        "group": "M-Middle Eastern",
+        "ambig_neg_count": 19,
+        "ambig_nonneg_count": 25,
+        "neg_rate": 0.004761904761904762,
+        "nonneg_rate": 0.006265664160401002,
+        "net_bias": -0.0015037593984962398
+      },
+      {
+        "group": "M-Asian",
+        "ambig_neg_count": 149,
+        "ambig_nonneg_count": 156,
+        "neg_rate": 0.03734335839598998,
+        "nonneg_rate": 0.039097744360902256,
+        "net_bias": -0.0017543859649122792
+      },
+      {
+        "group": "M-Roma",
+        "ambig_neg_count": 8,
+        "ambig_nonneg_count": 15,
+        "neg_rate": 0.0020050125313283208,
+        "nonneg_rate": 0.0037593984962406013,
+        "net_bias": -0.0017543859649122805
+      },
+      {
+        "group": "M-Arab",
+        "ambig_neg_count": 84,
+        "ambig_nonneg_count": 109,
+        "neg_rate": 0.021052631578947368,
+        "nonneg_rate": 0.02731829573934837,
+        "net_bias": -0.006265664160401002
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 3990,
+      "ambig_nonneg_total": 3990,
+      "unique_groups": 31,
+      "mean_net_bias": 0.0021181987226129837,
+      "mean_abs_net_bias": 0.0029428409734012454,
+      "weighted_mean_abs_net_bias": 0.009880299964055522
+    }
+  },
+  "BBQ-RACE_SES": {
+    "per_group": [
+      {
+        "group": "lowSES-F-Black",
+        "ambig_neg_count": 145,
+        "ambig_nonneg_count": 105,
+        "neg_rate": 0.05197132616487455,
+        "nonneg_rate": 0.03763440860215054,
+        "net_bias": 0.01433691756272401
+      },
+      {
+        "group": "lowSES-M-Latino",
+        "ambig_neg_count": 158,
+        "ambig_nonneg_count": 141,
+        "neg_rate": 0.056630824372759854,
+        "nonneg_rate": 0.05053763440860215,
+        "net_bias": 0.006093189964157704
+      },
+      {
+        "group": "lowSES-M-Arab",
+        "ambig_neg_count": 46,
+        "ambig_nonneg_count": 36,
+        "neg_rate": 0.016487455197132617,
+        "nonneg_rate": 0.012903225806451613,
+        "net_bias": 0.0035842293906810044
+      },
+      {
+        "group": "lowSES-F-Arab",
+        "ambig_neg_count": 41,
+        "ambig_nonneg_count": 33,
+        "neg_rate": 0.014695340501792114,
+        "nonneg_rate": 0.011827956989247311,
+        "net_bias": 0.002867383512544803
+      },
+      {
+        "group": "highSES-M-Asian",
+        "ambig_neg_count": 173,
+        "ambig_nonneg_count": 165,
+        "neg_rate": 0.06200716845878136,
+        "nonneg_rate": 0.05913978494623656,
+        "net_bias": 0.0028673835125447994
+      },
+      {
+        "group": "highSES-Latino",
+        "ambig_neg_count": 25,
+        "ambig_nonneg_count": 18,
+        "neg_rate": 0.008960573476702509,
+        "nonneg_rate": 0.0064516129032258064,
+        "net_bias": 0.002508960573476702
+      },
+      {
+        "group": "lowSES-African American",
+        "ambig_neg_count": 88,
+        "ambig_nonneg_count": 82,
+        "neg_rate": 0.031541218637992835,
+        "nonneg_rate": 0.02939068100358423,
+        "net_bias": 0.0021505376344086065
+      },
+      {
+        "group": "lowSES-F-White",
+        "ambig_neg_count": 192,
+        "ambig_nonneg_count": 186,
+        "neg_rate": 0.06881720430107527,
+        "nonneg_rate": 0.06666666666666667,
+        "net_bias": 0.002150537634408603
+      },
+      {
+        "group": "lowSES-Asian",
+        "ambig_neg_count": 14,
+        "ambig_nonneg_count": 8,
+        "neg_rate": 0.005017921146953405,
+        "nonneg_rate": 0.002867383512544803,
+        "net_bias": 0.002150537634408602
+      },
+      {
+        "group": "lowSES-F-Asian",
+        "ambig_neg_count": 41,
+        "ambig_nonneg_count": 35,
+        "neg_rate": 0.014695340501792114,
+        "nonneg_rate": 0.012544802867383513,
+        "net_bias": 0.0021505376344086013
+      },
+      {
+        "group": "highSES-F-Arab",
+        "ambig_neg_count": 32,
+        "ambig_nonneg_count": 26,
+        "neg_rate": 0.011469534050179211,
+        "nonneg_rate": 0.00931899641577061,
+        "net_bias": 0.0021505376344086013
+      },
+      {
+        "group": "highSES-Hispanic",
+        "ambig_neg_count": 22,
+        "ambig_nonneg_count": 17,
+        "neg_rate": 0.007885304659498209,
+        "nonneg_rate": 0.0060931899641577065,
+        "net_bias": 0.0017921146953405022
+      },
+      {
+        "group": "lowSES-F-Latino",
+        "ambig_neg_count": 39,
+        "ambig_nonneg_count": 34,
+        "neg_rate": 0.013978494623655914,
+        "nonneg_rate": 0.012186379928315413,
+        "net_bias": 0.0017921146953405014
+      },
+      {
+        "group": "lowSES-M-Black",
+        "ambig_neg_count": 141,
+        "ambig_nonneg_count": 136,
+        "neg_rate": 0.05053763440860215,
+        "nonneg_rate": 0.04874551971326165,
+        "net_bias": 0.0017921146953404979
+      },
+      {
+        "group": "highSES-F-White",
+        "ambig_neg_count": 252,
+        "ambig_nonneg_count": 247,
+        "neg_rate": 0.09032258064516129,
+        "nonneg_rate": 0.0885304659498208,
+        "net_bias": 0.001792114695340491
+      },
+      {
+        "group": "lowSES-South American",
+        "ambig_neg_count": 18,
+        "ambig_nonneg_count": 14,
+        "neg_rate": 0.0064516129032258064,
+        "nonneg_rate": 0.005017921146953405,
+        "net_bias": 0.0014336917562724014
+      },
+      {
+        "group": "highSES-M-Arab",
+        "ambig_neg_count": 47,
+        "ambig_nonneg_count": 43,
+        "neg_rate": 0.016845878136200716,
+        "nonneg_rate": 0.015412186379928316,
+        "net_bias": 0.0014336917562723997
+      },
+      {
+        "group": "lowSES-Latino",
+        "ambig_neg_count": 61,
+        "ambig_nonneg_count": 58,
+        "neg_rate": 0.02186379928315412,
+        "nonneg_rate": 0.02078853046594982,
+        "net_bias": 0.0010752688172043015
+      },
+      {
+        "group": "highSES-M-Latino",
+        "ambig_neg_count": 68,
+        "ambig_nonneg_count": 65,
+        "neg_rate": 0.024372759856630826,
+        "nonneg_rate": 0.023297491039426525,
+        "net_bias": 0.0010752688172043015
+      },
+      {
+        "group": "lowSES-Caucasian",
+        "ambig_neg_count": 14,
+        "ambig_nonneg_count": 11,
+        "neg_rate": 0.005017921146953405,
+        "nonneg_rate": 0.003942652329749104,
+        "net_bias": 0.0010752688172043006
+      },
+      {
+        "group": "highSES-European",
+        "ambig_neg_count": 8,
+        "ambig_nonneg_count": 6,
+        "neg_rate": 0.002867383512544803,
+        "nonneg_rate": 0.002150537634408602,
+        "net_bias": 0.0007168458781362007
+      },
+      {
+        "group": "highSES-South American",
+        "ambig_neg_count": 15,
+        "ambig_nonneg_count": 14,
+        "neg_rate": 0.005376344086021506,
+        "nonneg_rate": 0.005017921146953405,
+        "net_bias": 0.0003584229390681008
+      },
+      {
+        "group": "highSES-Native American",
+        "ambig_neg_count": 7,
+        "ambig_nonneg_count": 6,
+        "neg_rate": 0.0025089605734767025,
+        "nonneg_rate": 0.002150537634408602,
+        "net_bias": 0.00035842293906810036
+      },
+      {
+        "group": "highSES-Caucasian",
+        "ambig_neg_count": 9,
+        "ambig_nonneg_count": 8,
+        "neg_rate": 0.0032258064516129032,
+        "nonneg_rate": 0.002867383512544803,
+        "net_bias": 0.00035842293906810036
+      },
+      {
+        "group": "lowSES-Jewish",
+        "ambig_neg_count": 7,
+        "ambig_nonneg_count": 7,
+        "neg_rate": 0.0025089605734767025,
+        "nonneg_rate": 0.0025089605734767025,
+        "net_bias": 0.0
+      },
+      {
+        "group": "highSES-Middle Eastern",
+        "ambig_neg_count": 14,
+        "ambig_nonneg_count": 14,
+        "neg_rate": 0.005017921146953405,
+        "nonneg_rate": 0.005017921146953405,
+        "net_bias": 0.0
+      },
+      {
+        "group": "lowSES-Roma",
+        "ambig_neg_count": 6,
+        "ambig_nonneg_count": 6,
+        "neg_rate": 0.002150537634408602,
+        "nonneg_rate": 0.002150537634408602,
+        "net_bias": 0.0
+      },
+      {
+        "group": "highSES-Arab",
+        "ambig_neg_count": 10,
+        "ambig_nonneg_count": 10,
+        "neg_rate": 0.0035842293906810036,
+        "nonneg_rate": 0.0035842293906810036,
+        "net_bias": 0.0
+      },
+      {
+        "group": "highSES-African",
+        "ambig_neg_count": 7,
+        "ambig_nonneg_count": 7,
+        "neg_rate": 0.0025089605734767025,
+        "nonneg_rate": 0.0025089605734767025,
+        "net_bias": 0.0
+      },
+      {
+        "group": "lowSES-M-White",
+        "ambig_neg_count": 90,
+        "ambig_nonneg_count": 91,
+        "neg_rate": 0.03225806451612903,
+        "nonneg_rate": 0.03261648745519713,
+        "net_bias": -0.0003584229390680982
+      },
+      {
+        "group": "lowSES-White",
+        "ambig_neg_count": 22,
+        "ambig_nonneg_count": 23,
+        "neg_rate": 0.007885304659498209,
+        "nonneg_rate": 0.008243727598566309,
+        "net_bias": -0.0003584229390680999
+      },
+      {
+        "group": "highSES-Asian",
+        "ambig_neg_count": 39,
+        "ambig_nonneg_count": 40,
+        "neg_rate": 0.013978494623655914,
+        "nonneg_rate": 0.014336917562724014,
+        "net_bias": -0.0003584229390680999
+      },
+      {
+        "group": "highSES-F-Asian",
+        "ambig_neg_count": 35,
+        "ambig_nonneg_count": 36,
+        "neg_rate": 0.012544802867383513,
+        "nonneg_rate": 0.012903225806451613,
+        "net_bias": -0.0003584229390680999
+      },
+      {
+        "group": "lowSES-African",
+        "ambig_neg_count": 9,
+        "ambig_nonneg_count": 10,
+        "neg_rate": 0.0032258064516129032,
+        "nonneg_rate": 0.0035842293906810036,
+        "net_bias": -0.00035842293906810036
+      },
+      {
+        "group": "highSES-M-White",
+        "ambig_neg_count": 56,
+        "ambig_nonneg_count": 57,
+        "neg_rate": 0.02007168458781362,
+        "nonneg_rate": 0.02043010752688172,
+        "net_bias": -0.00035842293906810166
+      },
+      {
+        "group": "highSES-F-Latino",
+        "ambig_neg_count": 25,
+        "ambig_nonneg_count": 26,
+        "neg_rate": 0.008960573476702509,
+        "nonneg_rate": 0.00931899641577061,
+        "net_bias": -0.00035842293906810166
+      },
+      {
+        "group": "highSES-Jewish",
+        "ambig_neg_count": 3,
+        "ambig_nonneg_count": 5,
+        "neg_rate": 0.001075268817204301,
+        "nonneg_rate": 0.0017921146953405018,
+        "net_bias": -0.0007168458781362007
+      },
+      {
+        "group": "lowSES-Middle Eastern",
+        "ambig_neg_count": 12,
+        "ambig_nonneg_count": 15,
+        "neg_rate": 0.004301075268817204,
+        "nonneg_rate": 0.005376344086021506,
+        "net_bias": -0.0010752688172043015
+      },
+      {
+        "group": "lowSES-Native American",
+        "ambig_neg_count": 2,
+        "ambig_nonneg_count": 6,
+        "neg_rate": 0.0007168458781362007,
+        "nonneg_rate": 0.002150537634408602,
+        "net_bias": -0.0014336917562724014
+      },
+      {
+        "group": "highSES-Black",
+        "ambig_neg_count": 34,
+        "ambig_nonneg_count": 38,
+        "neg_rate": 0.012186379928315413,
+        "nonneg_rate": 0.013620071684587814,
+        "net_bias": -0.0014336917562724014
+      },
+      {
+        "group": "lowSES-Arab",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 9,
+        "neg_rate": 0.0017921146953405018,
+        "nonneg_rate": 0.0032258064516129032,
+        "net_bias": -0.0014336917562724014
+      },
+      {
+        "group": "lowSES-European",
+        "ambig_neg_count": 7,
+        "ambig_nonneg_count": 11,
+        "neg_rate": 0.0025089605734767025,
+        "nonneg_rate": 0.003942652329749104,
+        "net_bias": -0.0014336917562724019
+      },
+      {
+        "group": "lowSES-Black",
+        "ambig_neg_count": 68,
+        "ambig_nonneg_count": 74,
+        "neg_rate": 0.024372759856630826,
+        "nonneg_rate": 0.026523297491039426,
+        "net_bias": -0.0021505376344085995
+      },
+      {
+        "group": "highSES-Roma",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 11,
+        "neg_rate": 0.0017921146953405018,
+        "nonneg_rate": 0.003942652329749104,
+        "net_bias": -0.0021505376344086026
+      },
+      {
+        "group": "highSES-White",
+        "ambig_neg_count": 30,
+        "ambig_nonneg_count": 37,
+        "neg_rate": 0.010752688172043012,
+        "nonneg_rate": 0.013261648745519713,
+        "net_bias": -0.002508960573476701
+      },
+      {
+        "group": "highSES-African American",
+        "ambig_neg_count": 49,
+        "ambig_nonneg_count": 57,
+        "neg_rate": 0.01756272401433692,
+        "nonneg_rate": 0.02043010752688172,
+        "net_bias": -0.002867383512544803
+      },
+      {
+        "group": "lowSES-Hispanic",
+        "ambig_neg_count": 57,
+        "ambig_nonneg_count": 66,
+        "neg_rate": 0.02043010752688172,
+        "nonneg_rate": 0.023655913978494623,
+        "net_bias": -0.003225806451612901
+      },
+      {
+        "group": "lowSES-M-Asian",
+        "ambig_neg_count": 84,
+        "ambig_nonneg_count": 93,
+        "neg_rate": 0.030107526881720432,
+        "nonneg_rate": 0.03333333333333333,
+        "net_bias": -0.003225806451612901
+      },
+      {
+        "group": "highSES-M-Black",
+        "ambig_neg_count": 73,
+        "ambig_nonneg_count": 93,
+        "neg_rate": 0.026164874551971327,
+        "nonneg_rate": 0.03333333333333333,
+        "net_bias": -0.007168458781362005
+      },
+      {
+        "group": "highSES-F-Black",
+        "ambig_neg_count": 106,
+        "ambig_nonneg_count": 180,
+        "neg_rate": 0.03799283154121864,
+        "nonneg_rate": 0.06451612903225806,
+        "net_bias": -0.026523297491039426
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 2790,
+      "ambig_nonneg_total": 2790,
+      "unique_groups": 50,
+      "mean_net_bias": -3.58422939068101e-05,
+      "mean_abs_net_bias": 0.0023584229390681,
+      "weighted_mean_abs_net_bias": 0.00428674405522009
+    }
+  },
+  "BBQ_RELIGION": {
+    "per_group": [
+      {
+        "group": "Sikh",
+        "ambig_neg_count": 13,
+        "ambig_nonneg_count": 10,
+        "neg_rate": 0.043333333333333335,
+        "nonneg_rate": 0.03333333333333333,
+        "net_bias": 0.010000000000000002
+      },
+      {
+        "group": "Catholic",
+        "ambig_neg_count": 14,
+        "ambig_nonneg_count": 13,
+        "neg_rate": 0.04666666666666667,
+        "nonneg_rate": 0.043333333333333335,
+        "net_bias": 0.003333333333333334
+      },
+      {
+        "group": "Muslim",
+        "ambig_neg_count": 25,
+        "ambig_nonneg_count": 24,
+        "neg_rate": 0.08333333333333333,
+        "nonneg_rate": 0.08,
+        "net_bias": 0.003333333333333327
+      },
+      {
+        "group": "Buddhist",
+        "ambig_neg_count": 4,
+        "ambig_nonneg_count": 4,
+        "neg_rate": 0.013333333333333334,
+        "nonneg_rate": 0.013333333333333334,
+        "net_bias": 0.0
+      },
+      {
+        "group": "Protestant",
+        "ambig_neg_count": 8,
+        "ambig_nonneg_count": 9,
+        "neg_rate": 0.02666666666666667,
+        "nonneg_rate": 0.03,
+        "net_bias": -0.0033333333333333305
+      },
+      {
+        "group": "Mormon",
+        "ambig_neg_count": 18,
+        "ambig_nonneg_count": 19,
+        "neg_rate": 0.06,
+        "nonneg_rate": 0.06333333333333334,
+        "net_bias": -0.003333333333333341
+      },
+      {
+        "group": "Hindu",
+        "ambig_neg_count": 22,
+        "ambig_nonneg_count": 24,
+        "neg_rate": 0.07333333333333333,
+        "nonneg_rate": 0.08,
+        "net_bias": -0.006666666666666668
+      },
+      {
+        "group": "Jewish",
+        "ambig_neg_count": 17,
+        "ambig_nonneg_count": 19,
+        "neg_rate": 0.056666666666666664,
+        "nonneg_rate": 0.06333333333333334,
+        "net_bias": -0.006666666666666675
+      },
+      {
+        "group": "Christian",
+        "ambig_neg_count": 17,
+        "ambig_nonneg_count": 20,
+        "neg_rate": 0.056666666666666664,
+        "nonneg_rate": 0.06666666666666667,
+        "net_bias": -0.010000000000000002
+      },
+      {
+        "group": "Atheist",
+        "ambig_neg_count": 5,
+        "ambig_nonneg_count": 9,
+        "neg_rate": 0.016666666666666666,
+        "nonneg_rate": 0.03,
+        "net_bias": -0.013333333333333332
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 300,
+      "ambig_nonneg_total": 300,
+      "unique_groups": 10,
+      "mean_net_bias": -0.002666666666666668,
+      "mean_abs_net_bias": 0.006,
+      "weighted_mean_abs_net_bias": 0.006009070294784582
+    }
+  },
+  "BBQ_SES": {
+    "per_group": [
+      {
+        "group": "lowSES",
+        "ambig_neg_count": 631,
+        "ambig_nonneg_count": 629,
+        "neg_rate": 0.3677156177156177,
+        "nonneg_rate": 0.36655011655011654,
+        "net_bias": 0.0011655011655011815
+      },
+      {
+        "group": "highSES",
+        "ambig_neg_count": 395,
+        "ambig_nonneg_count": 399,
+        "neg_rate": 0.2301864801864802,
+        "nonneg_rate": 0.23251748251748253,
+        "net_bias": -0.0023310023310023353
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 1716,
+      "ambig_nonneg_total": 1716,
+      "unique_groups": 2,
+      "mean_net_bias": -0.0005827505827505769,
+      "mean_abs_net_bias": 0.0017482517482517584,
+      "weighted_mean_abs_net_bias": 0.0016160405644339547
+    }
+  },
+  "BBQ_SEXUAL_ORIENTATION": {
+    "per_group": [
+      {
+        "group": "lesbian",
+        "ambig_neg_count": 31,
+        "ambig_nonneg_count": 28,
+        "neg_rate": 0.14351851851851852,
+        "nonneg_rate": 0.12962962962962962,
+        "net_bias": 0.013888888888888895
+      },
+      {
+        "group": "straight",
+        "ambig_neg_count": 13,
+        "ambig_nonneg_count": 11,
+        "neg_rate": 0.06018518518518518,
+        "nonneg_rate": 0.05092592592592592,
+        "net_bias": 0.009259259259259259
+      },
+      {
+        "group": "pansexual",
+        "ambig_neg_count": 23,
+        "ambig_nonneg_count": 22,
+        "neg_rate": 0.10648148148148148,
+        "nonneg_rate": 0.10185185185185185,
+        "net_bias": 0.004629629629629636
+      },
+      {
+        "group": "gay",
+        "ambig_neg_count": 30,
+        "ambig_nonneg_count": 29,
+        "neg_rate": 0.1388888888888889,
+        "nonneg_rate": 0.13425925925925927,
+        "net_bias": 0.0046296296296296224
+      },
+      {
+        "group": "bisexual",
+        "ambig_neg_count": 21,
+        "ambig_nonneg_count": 25,
+        "neg_rate": 0.09722222222222222,
+        "nonneg_rate": 0.11574074074074074,
+        "net_bias": -0.018518518518518517
+      }
+    ],
+    "overall": {
+      "ambig_neg_total": 216,
+      "ambig_nonneg_total": 216,
+      "unique_groups": 5,
+      "mean_net_bias": 0.002777777777777779,
+      "mean_abs_net_bias": 0.010185185185185186,
+      "weighted_mean_abs_net_bias": 0.010193133047210302
+    }
+  }
+}
