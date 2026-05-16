@@ -1,0 +1,11 @@
+model,best_bias_group,worst_bias_group,best_accuracy_group,worst_accuracy_group
+Jiva_xlm_roberta_large_it_mnli,notPregnant,European,girl,highSES-F-Black
+MoritzLaurer_deberta_v3_large_zeroshot_v2.0,Hindu,posDress,ArabStates,nonTrans_M
+MoritzLaurer_mDeBERTa_v3_base_mnli_xnli,noVisibleDifference,Buddhist,F-European,highSES-F-Black
+NbAiLab_nb_bert_base_mnli,disabled,highSES-Middle Eastern,boy,lowSES-F-Black
+Recognai_zeroshot_selectra_small,M-Jewish,European,woman,lowSES-F-Asian
+cross_encoder_nli_MiniLM2_L6_H768,notPregnant,lowSES-European,boy,highSES-F-Black
+cross_encoder_nli_deberta_base,pregnant,F-Caucasian,trans_M,highSES-F-Black
+facebook_bart_large_mnli,disabled,trans_F,lowSES-Native American,nonTrans_F
+roberta_large_mnli,pregnant,posDress,girl,lowSES-F-Black
+valhalla_distilbart_mnli_12_3,disabled,posDress,nonTrans_M,nonTrans_F

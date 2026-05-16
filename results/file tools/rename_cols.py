@@ -2,13 +2,13 @@ import os
 import re
 import pandas as pd
 
-ROOT = "./"
+ROOT = "./../"
 
 list_dir = [d for d in os.listdir(ROOT) if os.path.isdir(os.path.join(ROOT, d))]
 
 for dir_name in list_dir:
     dir_path = os.path.join(ROOT, dir_name)
-    parquet_files = [f for f in os.listdir(dir_path) if f.endswith(".parquet")]
+    parquet_files = [f for f in os.listdir(dir_path) if f.endswith("bias.parquet")]
 
     for f in parquet_files:
         path = os.path.join(dir_path, f)

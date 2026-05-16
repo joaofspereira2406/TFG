@@ -13,8 +13,8 @@ meta_cols = ['example_id', 'question_index', 'question_polarity',
              'ans0', 'ans1', 'ans2', 'label']
 
 for dir in list_dir:
-    os.chdir("./" + dir)
-    list_files = os.listdir()
+    os.chdir("../" + dir)
+    list_files = [f for f in os.listdir() if f.endswith('.parquet') and not f.endswith('average.parquet')]
 
     groups = {
         d: [s for s in list_files if s.startswith(d)]
@@ -43,4 +43,3 @@ for dir in list_dir:
         result.to_parquet(output_name, index=False)
         print(f"Saved: {output_name} ({len(result)} rows from {len(files)} files)")
 
-    os.chdir("../../")

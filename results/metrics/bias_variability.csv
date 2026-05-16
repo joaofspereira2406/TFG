@@ -1,0 +1,11 @@
+model,bias_std
+Jiva_xlm_roberta_large_it_mnli,0.03657549755126115
+MoritzLaurer_deberta_v3_large_zeroshot_v2.0,0.03323252372697943
+MoritzLaurer_mDeBERTa_v3_base_mnli_xnli,0.034608898863115856
+NbAiLab_nb_bert_base_mnli,0.0539952443658003
+Recognai_zeroshot_selectra_small,0.058829219050986196
+cross_encoder_nli_MiniLM2_L6_H768,0.03964271055852631
+cross_encoder_nli_deberta_base,0.03274537324794691
+facebook_bart_large_mnli,0.05614572211850833
+roberta_large_mnli,0.03820187532296121
+valhalla_distilbart_mnli_12_3,0.04870195722667211
