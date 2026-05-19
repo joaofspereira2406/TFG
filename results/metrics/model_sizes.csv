@@ -1,4 +1,4 @@
-model_clean,parameters
+model,parameters
 facebook_bart_large_mnli,406291456
 roberta_large_mnli,355359744
 valhalla_distilbart_mnli_12_3,255121408
